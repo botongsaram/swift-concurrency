@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA9C64102C69BA33003E9D8F /* CountdownRobinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9C640F2C69BA33003E9D8F /* CountdownRobinApp.swift */; };
+		DA9C64122C69BA33003E9D8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9C64112C69BA33003E9D8F /* ContentView.swift */; };
+		DA9C64142C69BA34003E9D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9C64132C69BA34003E9D8F /* Assets.xcassets */; };
+		DA9C64172C69BA34003E9D8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9C64162C69BA34003E9D8F /* Preview Assets.xcassets */; };
+		DA9C64212C69BA34003E9D8F /* CountdownRobinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9C64202C69BA34003E9D8F /* CountdownRobinTests.swift */; };
+		DA9C642B2C69BA34003E9D8F /* CountdownRobinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9C642A2C69BA34003E9D8F /* CountdownRobinUITests.swift */; };
+		DA9C642D2C69BA34003E9D8F /* CountdownRobinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9C642C2C69BA34003E9D8F /* CountdownRobinUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA9C641D2C69BA34003E9D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA9C64042C69BA32003E9D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA9C640B2C69BA32003E9D8F;
+			remoteInfo = CountdownRobin;
+		};
+		DA9C64272C69BA34003E9D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA9C64042C69BA32003E9D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA9C640B2C69BA32003E9D8F;
+			remoteInfo = CountdownRobin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA9C640C2C69BA33003E9D8F /* CountdownRobin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountdownRobin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9C640F2C69BA33003E9D8F /* CountdownRobinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownRobinApp.swift; sourceTree = "<group>"; };
+		DA9C64112C69BA33003E9D8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA9C64132C69BA34003E9D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA9C64162C69BA34003E9D8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA9C641C2C69BA34003E9D8F /* CountdownRobinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountdownRobinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9C64202C69BA34003E9D8F /* CountdownRobinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownRobinTests.swift; sourceTree = "<group>"; };
+		DA9C64262C69BA34003E9D8F /* CountdownRobinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountdownRobinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9C642A2C69BA34003E9D8F /* CountdownRobinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownRobinUITests.swift; sourceTree = "<group>"; };
+		DA9C642C2C69BA34003E9D8F /* CountdownRobinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownRobinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA9C64092C69BA32003E9D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9C64192C69BA34003E9D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9C64232C69BA34003E9D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA9C64032C69BA32003E9D8F = {
+			isa = PBXGroup;
+			children = (
+				DA9C640E2C69BA33003E9D8F /* CountdownRobin */,
+				DA9C641F2C69BA34003E9D8F /* CountdownRobinTests */,
+				DA9C64292C69BA34003E9D8F /* CountdownRobinUITests */,
+				DA9C640D2C69BA33003E9D8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA9C640D2C69BA33003E9D8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA9C640C2C69BA33003E9D8F /* CountdownRobin.app */,
+				DA9C641C2C69BA34003E9D8F /* CountdownRobinTests.xctest */,
+				DA9C64262C69BA34003E9D8F /* CountdownRobinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA9C640E2C69BA33003E9D8F /* CountdownRobin */ = {
+			isa = PBXGroup;
+			children = (
+				DA9C640F2C69BA33003E9D8F /* CountdownRobinApp.swift */,
+				DA9C64112C69BA33003E9D8F /* ContentView.swift */,
+				DA9C64132C69BA34003E9D8F /* Assets.xcassets */,
+				DA9C64152C69BA34003E9D8F /* Preview Content */,
+			);
+			path = CountdownRobin;
+			sourceTree = "<group>";
+		};
+		DA9C64152C69BA34003E9D8F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA9C64162C69BA34003E9D8F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA9C641F2C69BA34003E9D8F /* CountdownRobinTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA9C64202C69BA34003E9D8F /* CountdownRobinTests.swift */,
+			);
+			path = CountdownRobinTests;
+			sourceTree = "<group>";
+		};
+		DA9C64292C69BA34003E9D8F /* CountdownRobinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA9C642A2C69BA34003E9D8F /* CountdownRobinUITests.swift */,
+				DA9C642C2C69BA34003E9D8F /* CountdownRobinUITestsLaunchTests.swift */,
+			);
+			path = CountdownRobinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA9C640B2C69BA32003E9D8F /* CountdownRobin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9C64302C69BA34003E9D8F /* Build configuration list for PBXNativeTarget "CountdownRobin" */;
+			buildPhases = (
+				DA9C64082C69BA32003E9D8F /* Sources */,
+				DA9C64092C69BA32003E9D8F /* Frameworks */,
+				DA9C640A2C69BA32003E9D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountdownRobin;
+			productName = CountdownRobin;
+			productReference = DA9C640C2C69BA33003E9D8F /* CountdownRobin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA9C641B2C69BA34003E9D8F /* CountdownRobinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9C64332C69BA34003E9D8F /* Build configuration list for PBXNativeTarget "CountdownRobinTests" */;
+			buildPhases = (
+				DA9C64182C69BA34003E9D8F /* Sources */,
+				DA9C64192C69BA34003E9D8F /* Frameworks */,
+				DA9C641A2C69BA34003E9D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA9C641E2C69BA34003E9D8F /* PBXTargetDependency */,
+			);
+			name = CountdownRobinTests;
+			productName = CountdownRobinTests;
+			productReference = DA9C641C2C69BA34003E9D8F /* CountdownRobinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA9C64252C69BA34003E9D8F /* CountdownRobinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9C64362C69BA34003E9D8F /* Build configuration list for PBXNativeTarget "CountdownRobinUITests" */;
+			buildPhases = (
+				DA9C64222C69BA34003E9D8F /* Sources */,
+				DA9C64232C69BA34003E9D8F /* Frameworks */,
+				DA9C64242C69BA34003E9D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA9C64282C69BA34003E9D8F /* PBXTargetDependency */,
+			);
+			name = CountdownRobinUITests;
+			productName = CountdownRobinUITests;
+			productReference = DA9C64262C69BA34003E9D8F /* CountdownRobinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA9C64042C69BA32003E9D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DA9C640B2C69BA32003E9D8F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					DA9C641B2C69BA34003E9D8F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DA9C640B2C69BA32003E9D8F;
+					};
+					DA9C64252C69BA34003E9D8F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DA9C640B2C69BA32003E9D8F;
+					};
+				};
+			};
+			buildConfigurationList = DA9C64072C69BA32003E9D8F /* Build configuration list for PBXProject "CountdownRobin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA9C64032C69BA32003E9D8F;
+			productRefGroup = DA9C640D2C69BA33003E9D8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA9C640B2C69BA32003E9D8F /* CountdownRobin */,
+				DA9C641B2C69BA34003E9D8F /* CountdownRobinTests */,
+				DA9C64252C69BA34003E9D8F /* CountdownRobinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA9C640A2C69BA32003E9D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9C64172C69BA34003E9D8F /* Preview Assets.xcassets in Resources */,
+				DA9C64142C69BA34003E9D8F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9C641A2C69BA34003E9D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9C64242C69BA34003E9D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA9C64082C69BA32003E9D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9C64122C69BA33003E9D8F /* ContentView.swift in Sources */,
+				DA9C64102C69BA33003E9D8F /* CountdownRobinApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9C64182C69BA34003E9D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9C64212C69BA34003E9D8F /* CountdownRobinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9C64222C69BA34003E9D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9C642B2C69BA34003E9D8F /* CountdownRobinUITests.swift in Sources */,
+				DA9C642D2C69BA34003E9D8F /* CountdownRobinUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA9C641E2C69BA34003E9D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA9C640B2C69BA32003E9D8F /* CountdownRobin */;
+			targetProxy = DA9C641D2C69BA34003E9D8F /* PBXContainerItemProxy */;
+		};
+		DA9C64282C69BA34003E9D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA9C640B2C69BA32003E9D8F /* CountdownRobin */;
+			targetProxy = DA9C64272C69BA34003E9D8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA9C642E2C69BA34003E9D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA9C642F2C69BA34003E9D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA9C64312C69BA34003E9D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CountdownRobin/Preview Content\"";
+				DEVELOPMENT_TEAM = 696AY2XC4N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = seungeun.CountdownRobin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA9C64322C69BA34003E9D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CountdownRobin/Preview Content\"";
+				DEVELOPMENT_TEAM = 696AY2XC4N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = seungeun.CountdownRobin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA9C64342C69BA34003E9D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 696AY2XC4N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = seungeun.CountdownRobinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountdownRobin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CountdownRobin";
+			};
+			name = Debug;
+		};
+		DA9C64352C69BA34003E9D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 696AY2XC4N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = seungeun.CountdownRobinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountdownRobin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CountdownRobin";
+			};
+			name = Release;
+		};
+		DA9C64372C69BA34003E9D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 696AY2XC4N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = seungeun.CountdownRobinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CountdownRobin;
+			};
+			name = Debug;
+		};
+		DA9C64382C69BA34003E9D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 696AY2XC4N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = seungeun.CountdownRobinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CountdownRobin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA9C64072C69BA32003E9D8F /* Build configuration list for PBXProject "CountdownRobin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9C642E2C69BA34003E9D8F /* Debug */,
+				DA9C642F2C69BA34003E9D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9C64302C69BA34003E9D8F /* Build configuration list for PBXNativeTarget "CountdownRobin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9C64312C69BA34003E9D8F /* Debug */,
+				DA9C64322C69BA34003E9D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9C64332C69BA34003E9D8F /* Build configuration list for PBXNativeTarget "CountdownRobinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9C64342C69BA34003E9D8F /* Debug */,
+				DA9C64352C69BA34003E9D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA9C64362C69BA34003E9D8F /* Build configuration list for PBXNativeTarget "CountdownRobinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9C64372C69BA34003E9D8F /* Debug */,
+				DA9C64382C69BA34003E9D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA9C64042C69BA32003E9D8F /* Project object */;
+}

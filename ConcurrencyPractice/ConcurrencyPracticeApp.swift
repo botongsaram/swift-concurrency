@@ -11,7 +11,8 @@ import SwiftUI
 struct CountdownRobinApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TaskBootcampHomeView()
         }
     }
 }
+

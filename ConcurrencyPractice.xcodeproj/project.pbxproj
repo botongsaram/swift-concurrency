@@ -14,6 +14,11 @@
 		DA9C64212C69BA34003E9D8F /* CountdownRobinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9C64202C69BA34003E9D8F /* CountdownRobinTests.swift */; };
 		DA9C642B2C69BA34003E9D8F /* CountdownRobinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9C642A2C69BA34003E9D8F /* CountdownRobinUITests.swift */; };
 		DA9C642D2C69BA34003E9D8F /* CountdownRobinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9C642C2C69BA34003E9D8F /* CountdownRobinUITestsLaunchTests.swift */; };
+		DAB374F12C69CF69003E0F1D /* DoCatchTryThowsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB374F02C69CF69003E0F1D /* DoCatchTryThowsBootcamp.swift */; };
+		DAB374F32C69DD0C003E0F1D /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB374F22C69DD0C003E0F1D /* DownloadImageAsync.swift */; };
+		DAB374F52C6B19A8003E0F1D /* AsyncAwaitBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB374F42C6B19A8003E0F1D /* AsyncAwaitBootcamp.swift */; };
+		DAB374F72C70334E003E0F1D /* TaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB374F62C70334E003E0F1D /* TaskBootcamp.swift */; };
+		DAB374F92C705D6B003E0F1D /* AsyncLetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB374F82C705D6B003E0F1D /* AsyncLetBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		DA9C64262C69BA34003E9D8F /* CountdownRobinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountdownRobinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9C642A2C69BA34003E9D8F /* CountdownRobinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownRobinUITests.swift; sourceTree = "<group>"; };
 		DA9C642C2C69BA34003E9D8F /* CountdownRobinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownRobinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAB374F02C69CF69003E0F1D /* DoCatchTryThowsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThowsBootcamp.swift; sourceTree = "<group>"; };
+		DAB374F22C69DD0C003E0F1D /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
+		DAB374F42C6B19A8003E0F1D /* AsyncAwaitBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitBootcamp.swift; sourceTree = "<group>"; };
+		DAB374F62C70334E003E0F1D /* TaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBootcamp.swift; sourceTree = "<group>"; };
+		DAB374F82C705D6B003E0F1D /* AsyncLetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +108,11 @@
 				DA9C64112C69BA33003E9D8F /* ContentView.swift */,
 				DA9C64132C69BA34003E9D8F /* Assets.xcassets */,
 				DA9C64152C69BA34003E9D8F /* Preview Content */,
+				DAB374F02C69CF69003E0F1D /* DoCatchTryThowsBootcamp.swift */,
+				DAB374F22C69DD0C003E0F1D /* DownloadImageAsync.swift */,
+				DAB374F42C6B19A8003E0F1D /* AsyncAwaitBootcamp.swift */,
+				DAB374F62C70334E003E0F1D /* TaskBootcamp.swift */,
+				DAB374F82C705D6B003E0F1D /* AsyncLetBootcamp.swift */,
 			);
 			path = CountdownRobin;
 			sourceTree = "<group>";
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB374F32C69DD0C003E0F1D /* DownloadImageAsync.swift in Sources */,
 				DA9C64122C69BA33003E9D8F /* ContentView.swift in Sources */,
 				DA9C64102C69BA33003E9D8F /* CountdownRobinApp.swift in Sources */,
+				DAB374F72C70334E003E0F1D /* TaskBootcamp.swift in Sources */,
+				DAB374F52C6B19A8003E0F1D /* AsyncAwaitBootcamp.swift in Sources */,
+				DAB374F12C69CF69003E0F1D /* DoCatchTryThowsBootcamp.swift in Sources */,
+				DAB374F92C705D6B003E0F1D /* AsyncLetBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
